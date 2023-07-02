@@ -1,11 +1,10 @@
-@prefix : <http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/untitled-ontology-13#> .
+@prefix : <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/untitled-ontology-13> .
-
+@base <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014> .
 <http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/untitled-ontology-13> rdf:type owl:Ontology .
 
 #################################################################
@@ -277,23 +276,316 @@
 #################################################################
 
 ###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Employee
-<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Employee> rdf:type owl:Class .
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Employee> rdf:type owl:Class ;
+                                                                                                                                   rdfs:subClassOf owl:Thing ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#BirthDate_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:string
+                                                                                                                                                   ] ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#CurrentFlag_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:string
+                                                                                                                                                   ] ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Gender_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:string
+                                                                                                                                                   ] ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#HireDate_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:string
+                                                                                                                                                   ] ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#JobTitle_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:string
+                                                                                                                                                   ] ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#LoginID_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:string
+                                                                                                                                                   ] ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#MaritalStatus_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:string
+                                                                                                                                                   ] ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ModifiedDate_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:string
+                                                                                                                                                   ] ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#NationalIDNumber_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:string
+                                                                                                                                                   ] ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OrganizationLevel_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:integer
+                                                                                                                                                   ] ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OrganizationNode_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:string
+                                                                                                                                                   ] ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalariedFlag_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:string
+                                                                                                                                                   ] ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SickLeaveHours_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:integer
+                                                                                                                                                   ] ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#VacationHours_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:integer
+                                                                                                                                                   ] ,
+                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                     owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#rowguid_dp> ;
+                                                                                                                                                     owl:allValuesFrom xsd:string
+                                                                                                                                                   ] .
 
 
 ###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Product
-<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Product> rdf:type owl:Class .
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Product> rdf:type owl:Class ;
+                                                                                                                                  rdfs:subClassOf owl:Thing ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Class_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:string
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Color_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:string
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#DaysToManufacture_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:integer
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#DiscontinuedDate_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:string
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#FinishedGoodsFlag_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:string
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ListPrice_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:decimal
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#MakeFlag_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:string
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ModifiedDate_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:string
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Name_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:string
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ProductID_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:integer
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ProductLine_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:string
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ProductNumber_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:string
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ReorderPoint_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:integer
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SafetyStockLevel_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:integer
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SellEndDate_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:string
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SellStartDate_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:string
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Size_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:string
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#StandardCost_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:decimal
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Style_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:string
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Weight_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:decimal
+                                                                                                                                                  ] ,
+                                                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                                                    owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#rowguid_dp> ;
+                                                                                                                                                    owl:allValuesFrom xsd:string
+                                                                                                                                                  ] .
 
 
 ###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderDetail
-<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderDetail> rdf:type owl:Class .
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderDetail> rdf:type owl:Class ;
+                                                                                                                                           rdfs:subClassOf owl:Thing ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#has_SalesOrderHeader> ;
+                                                                                                                                                             owl:allValuesFrom <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderHeader>
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#CarrierTrackingNumber_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:string
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#LineTotal_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:decimal
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ModifiedDate_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:string
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OrderQty_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:integer
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderDetailID_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:integer
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#UnitPriceDiscount_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:decimal
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#UnitPrice_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:decimal
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#rowguid_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:string
+                                                                                                                                                           ] .
 
 
 ###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderHeader
-<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderHeader> rdf:type owl:Class .
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderHeader> rdf:type owl:Class ;
+                                                                                                                                           rdfs:subClassOf owl:Thing ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#has_SalesPerson> ;
+                                                                                                                                                             owl:allValuesFrom <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesPerson>
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#AccountNumber_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:string
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Comment_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:string
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#CreditCardApprovalCode_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:string
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#DueDate_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:string
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Freight_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:decimal
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ModifiedDate_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:string
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OnlineOrderFlag_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:string
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OrderDate_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:string
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#PurchaseOrderNumber_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:string
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#RevisionNumber_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:integer
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderID_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:integer
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderNumber_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:string
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ShipDate_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:string
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Status_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:integer
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SubTotal_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:decimal
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#TaxAmt_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:decimal
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#TotalDue_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:decimal
+                                                                                                                                                           ] ,
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#rowguid_dp> ;
+                                                                                                                                                             owl:allValuesFrom xsd:string
+                                                                                                                                                           ] .
 
 
 ###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesPerson
-<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesPerson> rdf:type owl:Class .
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesPerson> rdf:type owl:Class ;
+                                                                                                                                      rdfs:subClassOf owl:Thing ,
+                                                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                                                        owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#has_Employee> ;
+                                                                                                                                                        owl:allValuesFrom <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Employee>
+                                                                                                                                                      ] ,
+                                                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                                                        owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Bonus_dp> ;
+                                                                                                                                                        owl:allValuesFrom xsd:decimal
+                                                                                                                                                      ] ,
+                                                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                                                        owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#CommissionPct_dp> ;
+                                                                                                                                                        owl:allValuesFrom xsd:decimal
+                                                                                                                                                      ] ,
+                                                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                                                        owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ModifiedDate_dp> ;
+                                                                                                                                                        owl:allValuesFrom xsd:string
+                                                                                                                                                      ] ,
+                                                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                                                        owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesLastYear_dp> ;
+                                                                                                                                                        owl:allValuesFrom xsd:decimal
+                                                                                                                                                      ] ,
+                                                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                                                        owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesQuota_dp> ;
+                                                                                                                                                        owl:allValuesFrom xsd:decimal
+                                                                                                                                                      ] ,
+                                                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                                                        owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesYTD_dp> ;
+                                                                                                                                                        owl:allValuesFrom xsd:decimal
+                                                                                                                                                      ] ,
+                                                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                                                        owl:onProperty <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#rowguid_dp> ;
+                                                                                                                                                        owl:allValuesFrom xsd:string
+                                                                                                                                                      ] .
 
 
 #################################################################
