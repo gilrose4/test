@@ -1,0 +1,313 @@
+@prefix : <http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/untitled-ontology-13#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/untitled-ontology-13> .
+
+<http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/untitled-ontology-13> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#has_Employee
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#has_Employee> rdf:type owl:ObjectProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#has_SalesOrderHeader
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#has_SalesOrderHeader> rdf:type owl:ObjectProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#has_SalesPerson
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#has_SalesPerson> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#AccountNumber_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#AccountNumber_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#BirthDate_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#BirthDate_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Bonus_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Bonus_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#CarrierTrackingNumber_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#CarrierTrackingNumber_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Class_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Class_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Color_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Color_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Comment_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Comment_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#CommissionPct_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#CommissionPct_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#CreditCardApprovalCode_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#CreditCardApprovalCode_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#CurrentFlag_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#CurrentFlag_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#DaysToManufacture_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#DaysToManufacture_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#DiscontinuedDate_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#DiscontinuedDate_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#DueDate_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#DueDate_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#FinishedGoodsFlag_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#FinishedGoodsFlag_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Freight_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Freight_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Gender_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Gender_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#HireDate_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#HireDate_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#JobTitle_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#JobTitle_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#LineTotal_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#LineTotal_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ListPrice_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ListPrice_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#LoginID_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#LoginID_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#MakeFlag_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#MakeFlag_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#MaritalStatus_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#MaritalStatus_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ModifiedDate_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ModifiedDate_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Name_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Name_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#NationalIDNumber_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#NationalIDNumber_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OnlineOrderFlag_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OnlineOrderFlag_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OrderDate_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OrderDate_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OrderQty_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OrderQty_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OrganizationLevel_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OrganizationLevel_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OrganizationNode_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#OrganizationNode_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ProductID_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ProductID_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ProductLine_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ProductLine_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ProductNumber_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ProductNumber_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#PurchaseOrderNumber_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#PurchaseOrderNumber_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ReorderPoint_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ReorderPoint_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#RevisionNumber_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#RevisionNumber_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SafetyStockLevel_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SafetyStockLevel_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalariedFlag_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalariedFlag_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesLastYear_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesLastYear_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderDetailID_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderDetailID_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderID_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderID_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderNumber_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderNumber_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesQuota_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesQuota_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesYTD_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesYTD_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SellEndDate_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SellEndDate_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SellStartDate_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SellStartDate_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ShipDate_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#ShipDate_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SickLeaveHours_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SickLeaveHours_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Size_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Size_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#StandardCost_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#StandardCost_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Status_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Status_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Style_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Style_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SubTotal_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SubTotal_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#TaxAmt_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#TaxAmt_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#TotalDue_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#TotalDue_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#UnitPriceDiscount_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#UnitPriceDiscount_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#UnitPrice_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#UnitPrice_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#VacationHours_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#VacationHours_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Weight_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Weight_dp> rdf:type owl:DatatypeProperty .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#rowguid_dp
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#rowguid_dp> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Employee
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Employee> rdf:type owl:Class .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Product
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Product> rdf:type owl:Class .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderDetail
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderDetail> rdf:type owl:Class .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderHeader
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderHeader> rdf:type owl:Class .
+
+
+###  https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesPerson
+<https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesPerson> rdf:type owl:Class .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Employee>
+                <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#Product>
+                <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderDetail>
+                <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesOrderHeader>
+                <https://ontomesh.accenturetlvlabs.com/user9/MySQL%20-%205.5.5-10.6.12-MariaDB-log/AdventureWorks2014/AdventureWorks2014#SalesPerson>
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
