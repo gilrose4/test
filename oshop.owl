@@ -1,0 +1,225 @@
+@prefix : <http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho> .
+
+<http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho> rdf:type owl:Ontology .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#BirthDate_dp
+:BirthDate_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#Class_dp
+:Class_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#Color_dp_only
+:Color_dp_only rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#CurrentFlag_dp
+:CurrentFlag_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#DaysToManufacture_dp
+:DaysToManufacture_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#DiscontinuedDate_dp
+:DiscontinuedDate_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#FinishedGoodsFlag_dp
+:FinishedGoodsFlag_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#Gender_dp
+:Gender_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#HireDate_dp
+:HireDate_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#JobTitle_dp
+:JobTitle_dp rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#ListPrice_dp_only
+:ListPrice_dp_only rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#LoginID_dp
+:LoginID_dp rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#MakeFlag_dp_only
+:MakeFlag_dp_only rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#MaritalStatus_dp
+:MaritalStatus_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#ModifiedDate_dp
+:ModifiedDate_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#Name_dp_only
+:Name_dp_only rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#NationalIDNumber_dp
+:NationalIDNumber_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#OrganizationLevel_dp
+:OrganizationLevel_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#OrganizationNode_dp
+:OrganizationNode_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#SalariedFlag_dp
+:SalariedFlag_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#SickLeaveHours_dp
+:SickLeaveHours_dp rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#VacationHours_dp_only
+:VacationHours_dp_only rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#rowguid_dp
+:rowguid_dp rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#Employee
+:Employee rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :BirthDate_dp ;
+                            owl:allValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :CurrentFlag_dp ;
+                            owl:allValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :Gender_dp ;
+                            owl:allValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :HireDate_dp ;
+                            owl:allValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :JobTitle_dp ;
+                            owl:allValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :LoginID_dp ;
+                            owl:allValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :MaritalStatus_dp ;
+                            owl:allValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :NationalIDNumber_dp ;
+                            owl:allValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :OrganizationLevel_dp ;
+                            owl:allValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :OrganizationNode_dp ;
+                            owl:allValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :SalariedFlag_dp ;
+                            owl:allValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :SickLeaveHours_dp ;
+                            owl:allValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :VacationHours_dp_only ;
+                            owl:allValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :rowguid_dp ;
+                            owl:allValuesFrom xsd:string
+                          ] .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#Product
+:Product rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty :Class_dp ;
+                           owl:allValuesFrom xsd:string
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :Color_dp_only ;
+                           owl:allValuesFrom xsd:string
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :DaysToManufacture_dp ;
+                           owl:allValuesFrom xsd:string
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :DiscontinuedDate_dp ;
+                           owl:allValuesFrom xsd:string
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :FinishedGoodsFlag_dp ;
+                           owl:allValuesFrom xsd:string
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :ListPrice_dp_only ;
+                           owl:allValuesFrom xsd:decimal
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :MakeFlag_dp_only ;
+                           owl:allValuesFrom xsd:string
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :ModifiedDate_dp ;
+                           owl:allValuesFrom xsd:string
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :Name_dp_only ;
+                           owl:allValuesFrom xsd:string
+                         ] .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#SalesOrderDetails
+:SalesOrderDetails rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#SalesOrderHeader
+:SalesOrderHeader rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/gil.rosenblum/ontologies/2023/6/onlinesho#SalesPerson
+:SalesPerson rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
